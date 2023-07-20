@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar{
+  background-color: rgb(68, 68, 61);
+}
+.Header{
+  background-color:  rgb(69, 219, 230);
+ 
+
+}
+
+.footer{
+
+  background-color: rgb(68, 68, 61);
+  text-align: center;
+  color: #ffff;
+  padding: 15px;
+  
+}
