@@ -1,6 +1,6 @@
 export const Card = () =>{
     return(
-        <div className="card col m-2" style={{"width": "18rem"}}>
+        <div className="card col-12 col-md-3" style={{"width": "18rem"}}>
   <img src="https://i.ytimg.com/vi/POa2ozAKwQk/maxresdefault.jpg" className="card-img-top" alt="..."/>
   <div className="card-body">
     <h5 className="card-title">Card title</h5>

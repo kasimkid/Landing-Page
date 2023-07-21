@@ -4,21 +4,23 @@ import { Card } from "./componentes/card";
 import Header from "./componentes/header";
 import Footer from "./componentes/footer";
 
-function App() {
+const App = () => {
   return (
-
+    <div className="container-fluid">
+      <NavBar />
+      <Header />
       <div className="container">
-        <NavBar />
-        <Header />
-          <div className=" container row">
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-          </div>
-          <Footer/>
+        <div className="row gap-3">
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+        </div>
       </div>
+
+      <Footer />
+    </div>
   );
-}
+};
 
 export default App;
