@@ -1,25 +1,29 @@
 import "./App.css";
 import NavBar from "./componentes/navbar";
 import { Card } from "./componentes/card";
-import Header from "./componentes/header";
 import Footer from "./componentes/footer";
+import Jumbotron from "./componentes/jumbotron";
 
 const App = () => {
   return (
-    <div className="container-fluid">
+      <>
       <NavBar />
-      <Header />
+      <Jumbotron/>
       <div className="container">
-        <div className="row gap-3">
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-        </div>
-      </div>
+        <div className="row  p-3 ">
 
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          </div>
+
+      </div>
+      <>
       <Footer />
-    </div>
+      </>
+      </>
+ 
   );
 };
 
