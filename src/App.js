@@ -6,24 +6,24 @@ import Jumbotron from "./componentes/jumbotron";
 
 const App = () => {
   return (
-      <>
+    <>
       <NavBar />
-      <Jumbotron/>
+      <Jumbotron />
       <div className="container">
-        <div className="row  p-3 ">
+        <div className="row justify-content-center ">
 
           <Card />
           <Card />
           <Card />
           <Card />
-          </div>
+        </div>
 
       </div>
       <>
-      <Footer />
+        <Footer />
       </>
-      </>
- 
+    </>
+
   );
 };
 
